@@ -1,0 +1,5 @@
+Add this frameworks to your project:
+
+- MessageUI.framework
+
+then just import the MailHelper.h
