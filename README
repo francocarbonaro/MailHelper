@@ -3,3 +3,11 @@ Add this frameworks to your project:
 - MessageUI.framework
 
 then just import the MailHelper.h
+
+Sample
+
+MailHelper *mail = [[MailHelper alloc] initWithMailTo:@"franco2610@gmail.com" MailSubject:@"Sample" MailMessageBody:@"iOS Rocks" MailMessageBodyIsHTML:NO];
+[mail displayMailCompose:_mainViewController];
+[mail release];
+
+
